@@ -1,0 +1,46 @@
+@import "settings";
+
+.hp_textCenter {
+	text-align: center;
+}
+
+
+.hp_spNone {
+	display: none !important;
+}
+
+.hp_pcNone {
+	display: block !important;
+}
+
+.hp_rowReverse {
+	flex-direction: row-reverse;
+}
+
+.hp_textRight {
+	text-align: right;
+}
+
+.hp_textLeft {
+	text-align: left;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.hp_spNone {
+		display: block !important;
+	}
+
+	.hp_pcNone {
+		display: none !important;
+	}
+}
+
+
+.hp_en{
+	font-family: 'Lora', serif;
+}
+.hp_ja{
+	font-family: 'Shippori Mincho', serif;
+}
